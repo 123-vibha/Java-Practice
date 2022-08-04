@@ -1,0 +1,12 @@
+public class Main
+{
+	public static void main(String[] args) {
+		measureRectangle(2.2, 7.8);
+		measureRectangle(3.4, 5.4);
+		measureRectangle(8.9, 9.2);
+	}
+	public static void measureRectangle(double length, double width){
+	    double area= length * width;
+	    System.out.println("the area of a rectangle is " +area);
+	}
+}

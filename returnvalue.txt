@@ -1,0 +1,18 @@
+public class Main
+{
+	public static void main(String[] args) {
+		double measure1= measureRectangle(2.2, 7.8);
+		double measure2= measureRectangle(3.4, 5.4);
+		double measure3= measureRectangle(8.9, 9.2);
+		stringStatement(2.2, 7.8, measure1);
+		stringStatement(3.4, 5.4, measure2);
+		stringStatement(8.9, 9.2, measure3);
+	}
+	public static double measureRectangle(double length, double width){
+	    double area= length * width;
+	    return area;
+	}
+	public static void stringStatement(double length, double width, double area){
+	    System.out.println("the rectangle length is "+length+" and width is "+width+" and it's area is "+area);
+	}
+}
